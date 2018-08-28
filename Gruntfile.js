@@ -35,7 +35,7 @@ module.exports = function (grunt) {
     buddha_maple: {
       options:{
         who:'assets/buddha.txt', // 'assets/alpaca.txt'
-        commentSymbol:'//',  //  '/////'
+        commentSymbol:'//---',  //  '/////'
       },
       dist: 'test/fixtures/*.js'
     },
